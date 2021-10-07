@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, sans-serif;    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background: #628ac7;
+    float: left;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    padding-left: 16%;
+    line-height: 100px;
+    float: left;    
+}
+
+.menu{
+    float: left;
+    padding-left: 25%;
+}
+
+.menu li{
+    float: left;
+    line-height: 100px;
+    font-size: 20px;
+    color: white;
+    margin-right: 40px;
+    text-transform: uppercase;   
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(..//img/anim.4.jpg) center/cover no-repeat;
+}
+
+.section_1{
+    float: left;
+    margin: 200px 0px 0px 780px;
+    color: #2166cd;
+    text-align: center;
+}
+
+.section_1 h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.section_1 h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e6587;
+}
+
+.section_1 input{
+    padding: 5px 5px 5px 5px;
+    margin: 60px 20px 20px 20px;
+    
+    text-align: center;
+    border: 2px solid #b692fe;
+    color: #4e6587;
+    background: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font: bold;
+}
+
+nav{
+    position: fixed;
+}
+
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: #b1201b;
+}
+
+.menu li a:active{
+    transform: scale(1.1);
+}
+
+.section_1 input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.section_1 input:hover{
+    background: #b1201b;
+    color: white;
+}
+
+.section_1 input:active{
+    transform: scale(1.1);
+}
+
