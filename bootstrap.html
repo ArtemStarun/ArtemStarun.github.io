@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Это моя первая страница.....">
+    <meta name="author" content="Artem">
+    <meta name="robots" content="all">
+
+    <meta property="og:title" content="Это моя первая страница.....">
+
+    <title>Андрей Браун - Веб-разработчик и Android - разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/b_style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/b_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function() {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+
+    </script>
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-2 col-lg-3 col-7">
+                        <div class="logo">Андрей Браун</div>
+                    </div>
+                    <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Обо мне</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Кейсы</a></li>
+                                <li><a href="#">Прайс</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                        <div class="dropdown">
+                            <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Навигация
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                                <li><a class="dropdown-item" href="#">Услуги</a></li>
+                                <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                                <li><a class="dropdown-item" href="#">Прайс</a></li>
+                                <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="loader"></div>
+        <section class="main">
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-lg-6 mt-5 pt-5">
+                        <div class="title__container mt-5">
+                            <h1>Привет <br> Я Андрей Браун</h1>
+                            <h4>Фулл стек веб-разработчик</h4>
+                            <input type="button" value="Обо мне">
+                            <input type="button" value="Мои работы">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="info">
+        <div class="personal_content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-2">
+                        <h2>ОБО МНЕ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="info_0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore labore delectus qui atque voluptatem nam vel dignissimos nisi blanditiis itaque quaerat porro, provident pariatur amet in ullam est cum quibusdam, a enim! Ab.</p>
+                        </div>
+                        <div class="info_01">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore labore delectus qui atque voluptatem nam vel dignissimos nisi blanditiis itaque quaerat porro, provident pariatur amet in ullam est cum quibusdam, a enim! Ab.</p>
+                        </div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-2"><input type="button" value="Скачать резюме"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main_1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class=" col-2">
+                    <div class="skills_01">
+                        <h2>ЧТО Я УМЕЮ</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-around">
+                <div class="col-2 pt-5">
+                    <div class="skills_02">
+                        <p><span class="text"><br><br><br>Веб-дизайн</span><br><br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Nisi, possimus.</p>
+                    </div>
+                </div>
+                <div class="col-2 pt-5">
+                    <div class="skills_03">
+                        <p><span class="text"><br><br><br>Разработка</span><br><br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Nisi, possimus.</p>
+                    </div>
+                </div>
+                <div class="col-2 pt-5">
+                    <div class="skills_04">
+                        <p><span class="text"><br><br><br>CEO-Оптимизация</span><br><br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Nisi, possimus.</p>
+                    </div>
+                </div>
+                <div class="col-2 pt-5">
+                    <div class="skills_05">
+                        <p><span class="text"><br><br><br>Маркетинг</span><br><br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Nisi, possimus.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="block_0">
+                    <h2>КЕЙСЫ</h2>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolore commodi sequi officia libero maiores vero, facere perspiciatis!</h4>
+                </div>
+            </div>
+            <div class="main_2"></div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="case">
+                <div class="col-3">
+                    <div class="block_1">
+                        <h3>CLIENT:</h3>
+                        <p>Какая-то компания</p>
+                        <h3>WEBSITE:</h3>
+                        <a href="">http://www.somedomain.com</a>
+                        <input type="button" value="Перейти на сайт">
+                    </div>
+                </div>
+                <div class="col-9 offset-3">
+                    <div class="block_2">
+                        <span>Название проекта</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae reprehenderit amet adipisci unde quasi obcaecati, voluptates deserunt doloremque illum, ullam eaque sit. Cumque fugiat, excepturi commodi eligendi fugit provident voluptates exercitationem ut delectus quos possimus porro eaque suscipit id dolore.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="main_3">
+                    <div class="cost">
+                        <div class="coast_01"><span>Расчет стоимости</span></div>
+                        <div class="coast_02">
+                            <h2>ТИП САЙТА</h2>
+                            <select name="type_list" id="type">
+                                <option value="Opt1">Выберите пункт....</option>
+                                <option value="Opt2">Выберите пункт....</option>
+                            </select>
+                        </div>
+                        <div class="coast_03">
+                            <h2>ДИЗАЙН</h2>
+                            <select name="type_list" id="type">
+                                <option value="Opt1">Выберите пункт....</option>
+                                <option value="Opt2">Выберите пункт....</option>
+                            </select>
+                        </div>
+                        <div class="coast_04">
+                            <h2>АДАПТИВНОСТЬ</h2>
+                            <select name="type_list" id="type">
+                                <option value="Opt1">Выберите пункт....</option>
+                                <option value="Opt2">Выберите пункт....</option>
+                            </select>
+                        </div>
+                        <div class="coast_05">
+                            <h4>Сроки</h4>
+                            <h2>0</h2>
+                            <h4>Стоимость</h4>
+                            <h2>0</h2>
+                        </div>
+                        <div class="coast_6">
+                            <input type="button" value="Оставить заявку">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="skills_11">
+                        <h2>НЕМНОГО СТАТИСТИКИ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-2">
+                    <div class="skills_12">
+                        <span class="text_01"><br>120</span>
+                        <p><br>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="skills_13">
+                        <span class="text_01"><br>4,600</span>
+                        <p><br>ЧАСОВ РАБОТЫ</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="skills_14">
+                        <span class="text_01"><br>340</span>
+                        <p><br>ПРОЕКТОВ ЗАВЕРШЕНО</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="skills_15">
+                        <span class="text_01"><br>23</span>
+                        <p><br>НАГРАД ПОЛУЧЕНО</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="reviews">
+                        <h2>ОТЗЫВЫ</h2>
+                        <div class="info_001">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta ipsa eligendi nostrum, debitis praesentium repudiandae, cupiditate asperiores quo ea dolorem porro odio rem!</p>
+                        </div>
+                        <div class="info_002">
+                            <span><b>Михаил</b>, Ген директор ПАО "Газпром".</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="footer_01">
+                        <div class="contacts">
+                            <h2>МОИ КОНТАКТЫ</h2>
+                        </div>
+                        <div class="info_foot_01">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quisquam, dolorem suscipit!</h4>
+                        </div>
+                        <div class="menu_f d-flex justify-content-around">
+                            <div class="info_foot_02">
+                                <br><br>
+                                <p>Санкт-Петербург<br>Невский проспект 11</p>
+                            </div>
+                            <div class="info_foot_002">
+                                <br><br>
+                                <p>info@companyname.com</p>
+                            </div>
+                            <div class="info_foot_0002">
+                                <br><br>
+                                <p>+7 999 999-99-99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="info_foot_03">
+                        <p>ОТПРАВТЕ МНЕ СООБЩЕНИЕ</p>
+                    </div>
+                    <div class="info_foot_04 d-flex justify-content-around">
+                        <input type="text" name="text_input" value="" placeholder="Имя">
+                        <input type="text" name="text_input" value="" placeholder="Email">
+                    </div>
+                    <textarea name="name1" id="1" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    <div class="info_input">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="map">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <div class="pic">
+                       <h4>I'M HERE</h4> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="and">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4 col-sm-10">
+                       <h4>Copyright © 2021 Андрей Браун. Design by Web</h4> 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
