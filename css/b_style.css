@@ -283,10 +283,24 @@ main {
 .info {
     width: 100%;
     height: 717px;
-    background: url(../img/boy_info.png) 50% 40% /auto 28% no-repeat, url(../img/line_info.png) 50% 21% /72px 4px no-repeat, url(../img/bg_info.jpg) center/cover no-repeat;
-
+    background: url(../img/bg_info.jpg) center/cover no-repeat;
+    text-align: center;
+    
 }
 
+.info_head{
+    max-width: 100%;
+    height: 60px;
+    background: url(../img/line_info.png) 50% 95% /72px 4px no-repeat;
+}
+
+.per_cont{
+    width: 100%;
+    height: 200px;
+    background: url(../img/boy_info.png) 50% 0% /auto 100% no-repeat;
+    margin-top: 30px;
+    
+}
 
 .info h2 {
     font-family: Arial, sans-serif;
@@ -294,7 +308,7 @@ main {
     font-weight: 700;
     text-align: center;
     color: #263244;
-    margin: 50% 5%;
+    margin: 40% 5%;
 
 }
 
@@ -340,7 +354,7 @@ main {
 }
 
 .info_0 {
-    margin-top: 200px;
+    margin-top: 30px;
     font-weight: bold;
     color: #5f6b7b;
     text-align: left;
@@ -406,6 +420,11 @@ main {
     background: url(../img/ruport.png) 50% 0% /auto 36px no-repeat;
 }
 
+.case{
+    width: 100%;
+    height: 1300px;
+}
+
 .main_2 {
     width: 100%;
     height: 860px;
@@ -440,10 +459,11 @@ main {
 
 
 .block_1 {
+    width: 100%;
     border: 1px solid #fff;
     padding-top: 44px;
     max-width: 205px;
-    height: 173px;
+    height: 221px;
     float: left;
     text-align: left;
 }
@@ -468,18 +488,21 @@ main {
     line-height: 20px;
     font-weight: 600;
     text-decoration: none;
+        
 }
 
 .block_1 input {
     text-align: center;
     border: 1px solid #63b5ae;
     border-radius: 6px;
-    margin-top: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     background-color: #63b5ae;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
     padding: 15px 44px 10px 44px;
+    
 }
 
 .block_1 input {
@@ -504,6 +527,8 @@ main {
     font-size: 16px;
     text-align: justify;
     color: #3f495a;
+    
+    
 }
 
 .block_2 span {
@@ -520,6 +545,10 @@ main {
     margin-bottom: 40px;
 
 
+}
+
+.cost{
+    width: 96%;
 }
 
 .coast_01 {
@@ -548,6 +577,7 @@ main {
 }
 
 select {
+    width: 100%;
     margin-top: 5px;
     font: inherit;
     letter-spacing: inherit;
@@ -557,7 +587,6 @@ select {
     /* рамка и отступы */
     border: 0.1em solid #fff;
     padding-top: 20px;
-    padding-right: 80%;
     padding-bottom: 20px;
     padding-left: 20px;
     font-size: 15px;
@@ -601,7 +630,7 @@ select {
     border-top: 3px solid #eeeeee;
     padding-top: 20px;
     font-size: 22px;
-    margin: 40px 40px 0px 40px;
+    margin: 40px 0px 0px 40px;
     line-height: 35px;
 
 }
