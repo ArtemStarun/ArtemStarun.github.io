@@ -27,17 +27,7 @@
             <div class="preloader__item"></div>
         </div>
     </div>
-    <script>
-        window.onload = function() {
-            document.body.classList.add('loaded_hiding');
-            window.setTimeout(function() {
-                document.body.classList.add('loaded');
-                document.body.classList.remove('loaded_hiding');
-            }, 500);
-        }
-
-    </script>
-
+    
     <header>
         <nav>
             <div class="container">
@@ -251,29 +241,29 @@
                                 <div class="coast_02">
                                     <h2>ТИП САЙТА</h2>
                                     <select name="type_list" id="type_1">
-                                        <option value="Opt0">Выберите пункт.....</option>
-                                        <option value="Opt1">Сайт-визитка</option>
-                                        <option value="Opt2">Лендинг</option>
-                                        <option value="Opt3">Портфолио</option>
-                                        <option value="Opt4">Промо-сайт</option>
-                                        <option value="Opt5">Сайт-витрина</option>
+                                        <option value="0">Выберите пункт.....</option>
+                                        <option value="100">Сайт-визитка</option>
+                                        <option value="200">Лендинг</option>
+                                        <option value="300">Портфолио</option>
+                                        <option value="400">Промо-сайт</option>
+                                        <option value="500">Сайт-витрина</option>
                                     </select>
                                 </div>
                                 <div class="coast_03">
                                     <h2>ДИЗАЙН</h2>
                                     <select name="type_list" id="design_1">
-                                        <option value="Opt0">Выберите пункт.....</option>
-                                        <option value="Opt1">Чистый</option>
-                                        <option value="Opt2">Стандартный</option>
-                                        <option value="Opt3">Художественный</option>
+                                        <option value="0">Выберите пункт.....</option>
+                                        <option value="100">Чистый</option>
+                                        <option value="200">Стандартный</option>
+                                        <option value="300">Художественный</option>
                                     </select>
                                 </div>
                                 <div class="coast_04">
                                     <h2>АДАПТИВНОСТЬ</h2>
                                     <select name="type_list" id="adaptability_1">
-                                        <option value="Opt0">Выберите пункт.....</option>
-                                        <option value="Opt1">Адаптивный</option>
-                                        <option value="Opt2">Не адаптивный</option>
+                                        <option value="0">Выберите пункт.....</option>
+                                        <option value="200">Адаптивный</option>
+                                        <option value="100">Не адаптивный</option>
                                     </select>
                                 </div>
                                 <div class="line"></div>
@@ -281,14 +271,12 @@
                                     <h4>Сроки</h4>
                                     <h4>Стоимость</h4>
                                 </div>
-                                <div class="inpOutData">
-                                    <h2>0</h2>
-                                </div>
-                                <div class="inpOutCost ">
-                                    <h2>0</h2>
+                                <div class="nam">
+                                    <div class="inpOutData" id="resultData">0</div>
+                                    <div class="inpOutCost" id="resultCost">0</div>
                                 </div>
                                 <div class="coast_6">
-                                    <input type="button" value="Оставить заявку">
+                                    <input id="needOut" type="button" value="Оставить заявку">
                                 </div>
                             </div>
                         </div>
